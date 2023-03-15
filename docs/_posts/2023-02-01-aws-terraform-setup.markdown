@@ -21,7 +21,7 @@ wsl --install -d ubuntu
 
 Once Ubuntu is up and running, we need to install Terraform.
 
-{% include js.html %}
+
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
@@ -46,7 +46,7 @@ You can test it by running “terraform” from the prompt
 
 Now we need to install pip (python3 is bundled with Ubuntu, or at least it was for me)
 
-{% include js.html %}
+
 ```bash
 sudo apt install python3-pip
 ```
