@@ -18,6 +18,11 @@ From an elevated powershell prompt, run the command below and it should install 
 wsl --install -d ubuntu
 {% endhighlight %}
 
+{% include js.html %}
+```bash
+wsl --install -d ubuntu
+```
+
 Once Ubuntu is up and running, we need to install Terraform.
 
 {% highlight bash %}
