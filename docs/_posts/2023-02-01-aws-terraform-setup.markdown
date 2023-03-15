@@ -53,7 +53,7 @@ sudo apt install python3-pip
 
 Next install yawsso
 
-{% include js.html %}
+
 ```bash
 python3 -m pip install --upgrade yawsso
 
