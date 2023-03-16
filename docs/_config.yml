@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: rtechdude
-youtube_url: https://youtube.com
+facebook_username: rtech2322
 footer_message: Fun For Some
 
 # Build settings
