@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CrushFTP Install"
+title:  "CrushFTP Install With NLB In AWS"
 date:   2022-09-09 01:17:15 -0600
 categories: cool stuff
 ---
