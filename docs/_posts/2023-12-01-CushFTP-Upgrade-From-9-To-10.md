@@ -78,6 +78,25 @@ sudo chmod +x crushftp_init.sh
 sudo ./crushftp_init.sh uninstall  
 #install new version
 sudo ./crushftp_init.sh install 
+{% endhighlight %}
+
+### 4. Post-Upgrade Configuration
+- **Migrate configuration**: Once CrushFTP 10 is installed, it should automatically migrate your settings and user configurations from version 9. However, it’s important to double-check your `prefs.XML` and other configuration files for any changes.
+- **Test functionality**: Run a few tests to ensure everything is functioning as expected. Test user logins, file uploads/downloads, and automation processes.
+- **Update scripts**: If you have custom scripts or plugins, ensure that they are compatible with version 10. You may need to update or tweak them depending on changes in the API or system behavior.
+
+### 5. Final Checks and Go Live
+- **Review logs**: Check your system logs for any warnings or errors that might have occurred during the upgrade process. CrushFTP generates logs that can help you troubleshoot any issues.
+- **Start the CrushFTP service**: Once everything is confirmed to be working correctly, restart the CrushFTP service to go live with the new version.
+{% highlight bash %}
 #restart crushftp
 sudo systemctl restart crushftp
 {% endhighlight %}
+- **Monitor performance**: Keep an eye on system performance in the hours and days following the upgrade. Watch for unusual CPU, memory, or disk usage, and address any bottlenecks that may appear.
+
+
+## Final Thoughts
+
+Upgrading from **CrushFTP 9** to **CrushFTP 10** is a necessary step to keep your file transfer operations secure, efficient, and future-ready. By following this guide, you can ensure a smooth upgrade with minimal disruption to your workflow. Once you’ve made the switch, you’ll benefit from the enhanced security, performance boosts, and powerful new features that CrushFTP 10 has to offer.
+
+So, what are you waiting for? It’s time to get your systems up to date and experience the benefits of CrushFTP 10!
